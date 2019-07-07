@@ -1733,6 +1733,7 @@ Usage (In Ghost editor):
     transform: rotate(90deg);
 }
 
+.floating-header-share-li,
 .floating-header-share-tw,
 .floating-header-share-fb {
     display: block;
@@ -1743,6 +1744,10 @@ Usage (In Ghost editor):
     line-height: 48px;
     text-align: center;
     transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.floating-header-share-li {
+    background: rgb(17, 120, 179);
 }
 
 .floating-header-share-tw {
@@ -1804,6 +1809,7 @@ Usage (In Ghost editor):
     .floating-header-logo {
         font-size: 1.5rem;
     }
+    .floating-header-share-li,
     .floating-header-share-tw,
     .floating-header-share-fb {
         width: 40px;
