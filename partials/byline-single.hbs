@@ -1,6 +1,10 @@
 {{!-- Everything inside the #author tags pulls data from the author --}}
 {{#primary_author}}
 
+{{#contentFor "head_block"}}
+    <meta name="author" content="{{name}}">
+{{/contentFor}}
+
 <section class="author-card">
     {{#if profile_image}}
         <img class="author-profile-image" src="{{img_url profile_image size="xs"}}" alt="{{name}}" />
